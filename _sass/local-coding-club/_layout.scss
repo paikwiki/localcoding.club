@@ -1,0 +1,106 @@
+.global-wrapper {
+  position: relative;
+  padding: 0.6rem;
+  color: $baseFontColor;
+  header {
+    margin-left: -0.6rem;
+    padding-left: 0.6rem;
+    padding-bottom: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% + 1.2rem);
+    border-bottom: 2px solid $baseFontColor;
+    .site-logo {
+      padding: 0;
+      width: 20%;
+      max-width: 4rem;
+      a {
+        display: block;
+        width: 100%;
+        padding-top: 100%;
+        font-size: 0;
+        text-indent: -99999px;
+        line-height: 1;
+        background-image: url("/assets/images/logo-square.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+    .nav-wrapper {
+      width: 70%;
+      nav {
+        ul {
+          display: flex;
+          li {
+            text-align: center;
+            width: 25%;
+            a {
+              text-decoration: none;
+              font-weight: bold;
+            }
+          }
+          li.active {
+            a {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+  .content-wrapper {
+    padding: 0.6rem 0;
+    margin-bottom: 2rem;
+    ul {
+      li {
+        margin-left: 2rem;
+        margin-bottom: 0.4rem;
+        list-style: square;
+        line-height: 1.6;
+      }
+    }
+  }
+  .main-wrapper {
+    .main-logo {
+      margin: 0 auto;
+      max-width: 980px;
+      p,
+      code {
+        display: block;
+        text-align: center;
+        font-size: 1.2rem;
+        color: $primaryFontColor;
+      }
+      .tagline {
+        font-weight: bold;
+        margin-top: 2rem;
+        margin-bottom: 0;
+      }
+      code {
+        font-family: monospace;
+        margin-bottom: 2rem;
+      }
+      h1 {
+        margin-bottom: 1.2rem;
+        padding-top: 7%;
+        width: 100%;
+        font-size: 0;
+        text-indent: -99999px;
+        line-height: 1;
+        background-image: url("/assets/images/logo-bar-sprite.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: 0 0%;
+      }
+    }
+  }
+  footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    font-size: 0.6rem;
+  }
+}

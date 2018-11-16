@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+$baseFontSize: 0.83rem;
+$baseFontColor: #333333;
+$primaryFontColor: #437eec;
+$dimFontColor: #555555;
+$metaFontColor: dimgray;
+
+// Import webfont
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+// Import partials
+@import "local-coding-club/base";
+@import "local-coding-club/fonts";
+@import "local-coding-club/layout";

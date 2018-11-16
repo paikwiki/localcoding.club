@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ko">
+{% include head.html %}
+<body>
+  <div class="global-wrapper">
+    {% include header.html %}
+    <section class="content-wrapper {% if page.customClass %}{{ page.customClass }}-wrapper {% endif %}">
+      {{ content }}
+    </section>
+    {% include footer.html %}
+  </div>
+</body>
+</html>
