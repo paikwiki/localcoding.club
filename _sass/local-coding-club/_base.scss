@@ -63,55 +63,55 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 2rem;
-  margin-block-start: 0.67rem;
-  margin-block-end: 0.67rem;
+  margin-top: 0.67rem;
+  margin-bottom: 0.67rem;
 }
 
 h2 {
   font-size: 1.5rem;
-  margin-block-start: 0.83rem;
-  margin-block-end: 0.83rem;
+  margin-top: 0.83rem;
+  margin-bottom: 0.83rem;
 }
 
 h3 {
   font-size: 1.17rem;
-  margin-block-start: 1rem;
-  margin-block-end: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 h4 {
-  margin-block-start: 1.33rem;
-  margin-block-end: 1.33rem;
+  margin-top: 1.33rem;
+  margin-bottom: 1.33rem;
 }
 
 h5 {
   font-size: 0.83rem;
-  margin-block-start: 1.67rem;
-  margin-block-end: 1.67rem;
+  margin-top: 1.67rem;
+  margin-bottom: 1.67rem;
 }
 
 h6 {
   font-size: 0.67rem;
-  margin-block-start: 2.33rem;
-  margin-block-end: 2.33rem;
+  margin-top: 2.33rem;
+  margin-bottom: 2.33rem;
 }
 
 article, aside, nav, section {
   h1 {
     font-size: 1.5rem;
-    margin-block-start: 0.83rem;
-    margin-block-end: 0.83rem;
+    margin-top: 0.83rem;
+    margin-bottom: 0.83rem;
   }
   h2 {
     font-size: 1.17rem;
-    margin-block-start: 1rem;
-    margin-block-end: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }
 
 p {
-  margin-block-start: 1rem;
-  margin-block-end: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   line-height: 1.6;
 }
 
