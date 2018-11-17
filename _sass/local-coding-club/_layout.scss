@@ -138,17 +138,15 @@
       .calendar-wrapper {
         margin: 0 auto;
         width: 90%;
+        width: 260px;
         @media all and (min-width: $deviceTablet) {
-          width: 260px;
           position: absolute;
           top: 0;
           right: 0;
         }
         iframe {
           border: 0;
-          @media all and (min-width: $deviceTablet) {
-            width: 260px;
-          }
+          width: 260px;
           height: 480px;
         }
       }
