@@ -99,6 +99,15 @@
       }
     }
   }
+  .intro-wrapper {
+    @media all and (min-width: 720px) {
+      img {
+        margin: 0 auto;
+        margin-top: 2rem;
+        width: 80%;
+      }
+    }
+  }
   .signup-wrapper {
     .calendar-wrapper {
       margin: 0 auto;
