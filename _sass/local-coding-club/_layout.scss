@@ -101,11 +101,12 @@
   }
   .signup-wrapper {
     .calendar-wrapper {
-      max-width: 100%;
+      margin: 0 auto;
+      max-width: 96%;
       iframe {
         border: 0;
         width: 100%;
-        height: 780px;
+        height: 720px;
       }
     }
   }
