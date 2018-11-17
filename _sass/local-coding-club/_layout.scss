@@ -146,6 +146,9 @@
         }
         iframe {
           border: 0;
+          @media all and (min-width: $deviceTablet) {
+            width: 260px;
+          }
           height: 480px;
         }
       }
