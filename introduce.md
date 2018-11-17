@@ -3,6 +3,11 @@ layout: default
 title: 로컬코딩클럽
 permalink: intro
 customClass: intro
+og:
+  title: 로컬코딩클럽 - 직접 만들면서 익히는 코딩
+  description: 
+  image: /assets/images/logo-square.png
+  card: summary_large_image
 ---
 
 # 로컬코딩클럽

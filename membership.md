@@ -3,6 +3,11 @@ layout: default
 title: 멤버십 안내
 permalink: membership
 customClass: membership
+og:
+  title: 로컬코딩클럽 멤버십
+  description: 
+  image: /assets/images/logo-square.png
+  card: summary_large_image
 ---
 
 # 멤버십
