@@ -119,6 +119,14 @@
       }
     }
   }
+  .membership-wrapper {
+    table {
+      width: 94%;
+      @media all and (min-width: $deviceTablet) {
+        width: 90%;
+      }
+    }
+  }
   .signup-wrapper {
     .signup-content {
       position: relative;
@@ -128,7 +136,7 @@
       .text-wrapper {
         width: 100%;
         @media all and (min-width: $deviceTablet) {
-          padding-right: 300px;  
+          padding-right: 300px;
         }
       }
       .calendar-wrapper {
