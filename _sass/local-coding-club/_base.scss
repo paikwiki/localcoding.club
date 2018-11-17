@@ -119,6 +119,10 @@ a {
   color: $baseFontColor;
 }
 
+img {
+  max-width: 100%;
+}
+
 table {
   margin-left: 1rem;
   tr {
@@ -132,4 +136,15 @@ table {
       font-weight: bold;
     }
   }
+}
+
+/* text */
+
+.image-description {
+  display: block;
+  margin-top: -1rem;
+  text-align: center;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: $primaryFontColor;
 }
