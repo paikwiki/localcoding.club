@@ -152,3 +152,15 @@ table {
   font-style: italic;
   color: $primaryFontColor;
 }
+
+.show-inline-text-mobile {
+  @media all and (min-width: $deviceTablet) {
+    display: none;
+  }
+}
+.show-inline-text-tablet {
+  display: none;
+  @media all and (min-width: $deviceTablet) {
+    display: inline;
+  }
+}
