@@ -108,6 +108,11 @@
         width: 100%;
         height: 720px;
       }
+      @media all and (min-width: 720px){
+        iframe {
+          height: 540px;
+        }
+      }
     }
   }
   footer {
