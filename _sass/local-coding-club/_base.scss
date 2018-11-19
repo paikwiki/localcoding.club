@@ -164,3 +164,9 @@ table {
     display: inline;
   }
 }
+
+.mobile-br {
+  @media all and (min-width: $deviceTablet) {
+    display: none;
+  }  
+}

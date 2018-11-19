@@ -87,12 +87,18 @@
       code {
         display: block;
         text-align: center;
-        font-size: 1.2rem;
         color: $primaryFontColor;
+        font-size: 0.8rem;
+        @media all and (min-width: $deviceTablet) {
+          font-size: 1rem;
+        }
       }
       .tagline {
         font-weight: bold;
         margin-bottom: 0;
+        span {
+          text-decoration: underline;
+        }
       }
       code {
         font-family: monospace;
@@ -109,6 +115,13 @@
         background-size: 100%;
         background-repeat: no-repeat;
         background-position: 0 0%;
+      }
+    }
+    .main-description {
+      p {
+        @media all and (min-width: $deviceTablet) {
+          text-align: center;
+        }
       }
     }
   }
